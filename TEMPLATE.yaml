@@ -1,0 +1,12 @@
+# Copy this file to rules/YOUR_TOKEN.yaml and fill in your values.
+# The filename must match the tick (case-insensitive).
+
+tick: YOUR_TOKEN          # required — your KRC20 token ticker
+version: 1                # required — always 1
+
+eligibility:
+  type: new_user          # required — new Kasanova users
+  max_age_days: 30        # optional — users who joined within this many days (default: 30)
+
+distribution:
+  amount_per_user: 500    # required — tokens per user (display units, not raw)
