@@ -4,9 +4,9 @@
 tick: YOUR_TOKEN          # required — your KRC20 token ticker
 version: 1                # required — always 1
 
-eligibility:
-  type: all_users         # required — all_users or new_users
-  # max_age_days: 30      # only for new_users — users who joined within this many days (default: 30)
+eligibility:              # optional — defaults to all_users
+  type: all_users         # all_users (default) or new_users
+  # max_age_days: 30      # only for new_users — users who joined within this many days
 
 distribution:
   amount_per_user: 500    # required — tokens per user (display units, not raw)
