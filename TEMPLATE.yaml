@@ -5,7 +5,7 @@ tick: YOUR_TOKEN          # required — your KRC20 token ticker
 version: 1                # required — always 1
 
 eligibility:
-  type: new_user          # required — new Kasanova users
+  type: new_user          # required — new_user (Kasanova users)
   max_age_days: 30        # optional — users who joined within this many days (default: 30)
 
 distribution:
