@@ -17,7 +17,7 @@ Distribution rules for the [Kasanova](https://kasanova.app) KRC20 token faucet. 
 4. Submit a PR
 5. Once merged, deposit tokens to the faucet wallet
 
-The faucet wallet address and current balances are visible at the `/status` endpoint.
+Check live status, balances, and contributors at [kasanova.app/faucet](https://kasanova.app/faucet).
 
 ## Rule format
 
@@ -50,9 +50,7 @@ distribution:
 | `eligibility.max_age_days` | No | For `new_users` only. Days since registration (default: 30) |
 | `distribution.amount_per_user` | Yes | Tokens each user receives (display units) |
 
-## Current tokens
+## Links
 
-| Token | Type | Amount per user |
-|-------|------|-----------------|
-| BITE | new_users (30d) | 500 |
-| KSNV | new_users (30d) | 100 |
+- [Faucet Dashboard](https://kasanova.app/faucet) — live status, balances, contributors
+- [Kasanova App](https://kasanova.app) — download the wallet
