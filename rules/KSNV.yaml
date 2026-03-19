@@ -1,0 +1,9 @@
+tick: KSNV
+version: 1
+
+eligibility:
+  type: new_user
+  max_age_days: 30
+
+distribution:
+  amount_per_user: 100
