@@ -2,7 +2,7 @@ tick: KSNV
 version: 1
 
 eligibility:
-  type: new_user
+  type: new_users
   max_age_days: 30
 
 distribution:
