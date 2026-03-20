@@ -1,0 +1,8 @@
+tick: BITE
+version: 1                # required — always 1
+
+eligibility:              # optional — defaults to all_users
+  type: all_users
+
+distribution:
+  amount_per_user: 10
