@@ -1,0 +1,9 @@
+tick: HUMPY
+version: 1
+
+eligibility:
+  type: new_users
+  max_age_days: 30
+
+distribution:
+  amount_per_user: 1000
