@@ -1,0 +1,8 @@
+tick: PLUTO
+version: 1
+
+eligibility:
+  type: all_users
+
+distribution:
+  amount_per_user: 10000
