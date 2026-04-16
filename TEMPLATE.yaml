@@ -3,6 +3,7 @@
 
 tick: YOUR_TOKEN          # required — your KRC20 token ticker
 version: 1                # required — always 1
+enabled: true             # optional — set to false to pause distribution without deleting this file
 
 eligibility:              # optional — defaults to all_users
   type: all_users         # all_users (default) or new_users

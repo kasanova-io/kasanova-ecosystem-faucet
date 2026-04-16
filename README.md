@@ -24,6 +24,7 @@ Check live status, balances, and contributors at [kasanova.app/faucet](https://k
 ```yaml
 tick: YOUR_TOKEN       # required, must match filename
 version: 1             # required
+enabled: true          # optional, defaults to true
 
 eligibility:           # optional, defaults to all_users
   type: all_users      # all_users (default) or new_users
@@ -46,6 +47,7 @@ distribution:
 |-------|----------|-------------|
 | `tick` | Yes | Token ticker, must match filename (case-insensitive) |
 | `version` | Yes | Always `1` |
+| `enabled` | No | `true` (default) or `false`. Set to `false` to pause distribution without deleting the file |
 | `eligibility.type` | No | `all_users` (default) or `new_users` |
 | `eligibility.max_age_days` | No | For `new_users` only. Days since registration (default: 30) |
 | `distribution.amount_per_user` | Yes | Tokens each user receives (display units) |
