@@ -6,4 +6,4 @@ eligibility:
   max_age_days: 30
 
 distribution:
-  amount_per_user: 100
+  amount_per_user: 10
